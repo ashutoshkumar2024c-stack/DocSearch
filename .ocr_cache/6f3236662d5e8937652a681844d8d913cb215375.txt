@@ -1,0 +1,29 @@
+3.) System Testing:
+- Functional testing of all features
+- Performance/load testing: simulate 10000 users
+  during a sale
+- Security testing: Penetration testing, SQL injection
+  checks, OWASP mobile Top 10
+- Usability testing with real users.
+4.) Mobile-Specific Testing:
+- Compatibility testing: different devices, screen
+  sizes, Android / iOS
+- Network testing: 2G/3G/4G/5G/Wi-Fi & offline
+  mode
+- Interrupt Testing: an incoming call during pay-
+  ment.
+- Battery & memory usage.
+5.) Web testing: cross browser testing & responsive layout
+6.) Regression Testing: after every sprint, re-run old tests
+  to make sure new code didn't break anything
+  This should be automated.
+7.) Acceptance testing: alpha testing inside the company,
+  then beta testing with a small group
+  of real customers before launch.
+8.) Black box & white box: black box techniques (equivalence
+  partitioning, boundary value analysis) for the
+  UI & inputs, white box for critical code
+  like payments.
+- CI/CD: every code commit is built & tested
+  automatically, so integration failures are
+  caught on same day

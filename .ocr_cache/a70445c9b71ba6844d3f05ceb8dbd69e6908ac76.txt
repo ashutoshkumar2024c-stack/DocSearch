@@ -1,0 +1,38 @@
+Date ..               | f compromised applica-ti.
+__________________________________________________
+
+Q-1.)
+=       According to the given scenario, we will
+        use Amazon Virtual Private Cloud (VPC)
+        as the name suggests its 'private', it is
+        logically isolated and private network inside
+        AWS . AWS resources like AWS servers, EC2,
+        RDS, etc are placed inside the VPC , including
+        all the required networking components to
+        control data traffic as per our needs.
+
+->      VPC uses CIDR (Classless Inter-Domain
+        Routing) blocks :
+        It is the IP address range allocated to
+        our VPC .
+
+->      Subnets: the subnet is VPC CIDR block subnet.
+        Partitions of the network are divided by the
+        CIDR range within the range of IP addresses
+        of our VPC . A VPC ^can have multiple subnets
+        for different kinds of services like a frontend
+        subnet , a backend subnet (for business logic
+        processing & a database subnet. So, this
+        is called segmentation and VPC uses this.
+
+->      VPC uses routing table which contains a
+        set of rules called routes . It determines
+        where the traffic will flow .
+
+->      For inbound and outbound controls,
+        we use NAT gateways , Network Address
+        Translation gateways -> it provides outbound
+        internet access to private subnets & prevents
+        connections from being initiated from outside
+        to our VPC resources
+                                                    [ 3 ]

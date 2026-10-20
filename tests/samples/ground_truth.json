@@ -1,0 +1,81 @@
+{
+  "page1": [
+    "Quarterly Audit Summary",
+    "The finance team reviewed 1,248 invoices during the third quarter.",
+    "Discrepancies were found in 37 invoices, mostly duplicate payments.",
+    "All duplicate payments above Rs 50,000 were recovered by September 30."
+  ],
+  "page2": [
+    "Patient Discharge Record",
+    "Name: Ravi Kumar   Ward: 4B   Admission: 12/08/2026",
+    "Diagnosis: community acquired pneumonia, treated with antibiotics.",
+    "Follow up with the pulmonology clinic after two weeks.",
+    "Discharge medication: amoxicillin 500 mg three times daily."
+  ],
+  "page3": [
+    "Contract Review Notes",
+    "Clause 7 limits liability to the total fees paid in the previous year.",
+    "The figure below shows renewal rates reported by the vendor."
+  ],
+  "chart": [
+    "Renewal Rate by Region",
+    "North 82%",
+    "South 76%",
+    "East 69%",
+    "West 91%"
+  ],
+  "table1": [
+    [
+      "Vendor",
+      "Invoices",
+      "Duplicates",
+      "Recovered (Rs)"
+    ],
+    [
+      "Apex Supplies",
+      "412",
+      "14",
+      "3,20,000"
+    ],
+    [
+      "Blue Ocean Ltd",
+      "388",
+      "9",
+      "1,75,500"
+    ],
+    [
+      "Corex Traders",
+      "448",
+      "14",
+      "2,90,250"
+    ]
+  ],
+  "scan_table_title": "Lab Results Summary",
+  "scan_table": [
+    [
+      "Test",
+      "Result",
+      "Unit"
+    ],
+    [
+      "Haemoglobin",
+      "10.2",
+      "g/dL"
+    ],
+    [
+      "Platelets",
+      "250",
+      "10^3/uL"
+    ],
+    [
+      "Glucose",
+      "98",
+      "mg/dL"
+    ]
+  ],
+  "photo": [
+    "Patient Discharge Record",
+    "Name: Ravi Kumar   Ward: 4B   Admission: 12/08/2026",
+    "Diagnosis: community acquired pneumonia, treated with antibiotics."
+  ]
+}

@@ -1,0 +1,18 @@
+Diagram: 2.1
+
+[Diagram showing Transit Gateway connected to five VPCs, VPN, Direct Connect Gateway, and on-premise]
+VPC
+VPC
+VPC
+VPC
+VPC
+Transit Gateway
+VPN
+Direct Connect Gateway
+on premise
+
+VPC connectivity with TGW
+
+comm^n. between five VPCS using TGW.
+
+6

@@ -1,0 +1,37 @@
+5.) Microservices architecture: each service can be developed,
+tested & deployed separately, & a failure in
+recommendations will not crash payments.
+
+6.) Solid principles: for object oriented designs
+
+7.) ~~HE~ MVC/MVVM pattern for the mobile app, keeping UI
+separate from logic.
+
+8.) Mobile first responsive design: same backend serves both
+web & mobile & UI adjusts to screen size.
+
+9.) Security by design: HTTPS, token based authentication
+(JWT/OAuth), etc.
+
+10.) Usability: Simple navigation & few steps to checkout
+(Nielsen's heuristics)
+
+b.) Testing Strategies:
+Levels of testing (V - Model) :
+
+Requirements -------------> Acceptance Testing
+
+System Design -------> System Testing
+
+Module Design -> Integration Testing
+
+Coding - Unit Testing
+
+1.) Unit Testing: test each function or class (for example,
+the cart total calculation). Tools: JUnit,
+XCTest, Jest.
+
+2.) Integration Testing: test modules together, especially
+app <-> backend <-> payment gateway <-> courier API.
+Uses an incremental approach (top down/bottom
+up) with stubs & drivers

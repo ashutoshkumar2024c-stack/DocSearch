@@ -1,0 +1,25 @@
+c.) Team Co-ordination:
+
+1.) Scrum ceremonies:
+    daily stand-up (what did I do yesterday? what will I do
+    today? Any blockers?), sprint planning, review and
+    retrospective.
+
+2.) Tools:
+    Jira/Trello for stracking of task
+    Slack/Teams for communication
+    Git/Github for version control
+    Confluence for documentation
+
+3.) Cross-functional team:
+    developers, testers and designers work together in the
+    same sprint.
+
+4.) Clear responsibility: a RACI chart (Responsible, Accountable,
+    consulted, informed)
+
+5.) Regular Stakeholders meetings with marketing and logistics
+    teams every sprint review.
+
+6.) Configuration management: branching strategy, code
+    reviews and versioning to avoid conflicts

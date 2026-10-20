@@ -1,0 +1,19 @@
+Q-3.) Project management:
+
+a.) Estimation Methods
+
+Method | Use in Shephase
+---|---
+Story points + Planning Poker | The team estimates each user story by relative size. Fibonacci numbers (1, 2, 3, 5, 8) are used.
+Velocity | Story points completed per sprint. It is used to predict how many sprints are needed.
+Function Point Analysis | Measures size from inputs, outputs, inquires, files & interfaces
+Cocomo II | Estimates effort, cost & time from the size (Effort = a x (kloc)^b) It is used as a cross-check.
+Work Breakdown Structure (WBS) | Break the project into smaller modules and estimate each one separately.
+
+b.) Risk management
+Steps: Risk Identification -> Risk Analysis
+                       |
+                       v
+Risk Monitoring <- Risk Planning
+
+Risk Table (RMMM : Risk Mitigation, Monitoring, management).

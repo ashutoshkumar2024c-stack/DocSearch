@@ -1,0 +1,29 @@
+c) Six Sigma:
+Goal: <= 3.4 defects per million opportunities, using
+DMAIC
+^
+|
+Define <- Measure <- Analyze <- Improve <- Control
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Phase           Shop Ease example
+Define          High payment failure rate
+Measure         50 failures in 10,000 payments
+Analyze         Root cause, gateway timeout
+Improve         Add retry logic, faster APIs
+Control         Dashboard alerts
+
+Improvement is needed.
+DPMO = (50/10000) x 10^6 = 5000, far from six sigma, so,
+
+d) Metrics
+1) Defect density = defects / kloc (target <1)
+2) DRE = E / (E+D) x 100
+E = 180 (before release), D = 20 (after) -> DRE = 90%.
+3) Test coverage >= 80%
+4) Crash free sessions >= 99.5%
+5) Customer rating on Play store / App store
+
+Conclusion:
+A hybrid Agile scrum model with spiral risk analysis
+suits ShopEase best because it delivers in short
+sprints within 6 months & handles changing needs

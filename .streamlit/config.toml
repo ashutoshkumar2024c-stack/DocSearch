@@ -1,0 +1,10 @@
+[server]
+maxUploadSize = 100
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#2f5bea"

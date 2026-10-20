@@ -1,0 +1,26 @@
+ShopEase is a mid-sized e-commerce company
+launching a mobile app with personalized recomm-
+endations, a secure payment gateway and real-
+time order tracking.
+Constraints: limited resources & a strict 6-months
+deadline
+
+Q-1.) Choice of Process Model:
+
+| Criteria | Waterfall | Spiral | Agile (Scrum) |
+| --- | --- | --- | --- |
+| Handles changing requirements | No (x) | Yes (v) | Yes (vv) |
+| Fits 6-months deadline | No | No | Yes (vv) |
+| Low Cost | Yes | No | Yes |
+| Early working product | No | - | Yes |
+| Risk handling | No | Yes | Yes |
+
+Why not Waterfall?
+It is linear and testing comes only at the end.
+If payment integration fails in month 5, there is no
+time to fix it. Marketing requirements will also keep
+changing.
+Why not Spiral?
+It is best for risk, but each loop needs detailed risk
+analysis by experts, which is costly and slow. Shopease
+has limited resources.

@@ -1,0 +1,28 @@
+Q-5.) Quality Assurance:
+It prevents defects through a proper process;
+QC finds defects through testing.
+
+a) ISO Standards:
+ISO 9001: documented processes, clear roles, reviews, internal audits & continuous improvement.
+
+ISO/IEC 25010 (Product Quality):
+| Characteristic | Applied in shopall |
+|---|---|
+| Functional suitability | Meets user stories |
+| Performance | Response < 3s |
+| Usability | Easy checkout |
+| Reliability | 99.9% uptime |
+| Security | Encryption, PCI-DSS |
+| Maintainability | modular code |
+
+b) CMMI
+Fig 7: CMMI Levels :
+[Diagram showing a staircase of CMMI levels]
+L5 optimizing
+L4 quant. Managed
+L3 Defined
+L2 Managed
+L1 initial
+
+L2: requirements management, planning, tracking, configuration management (done via Scrum, Jira)
+L3: one standard documented process for all teams, peer reviews, training

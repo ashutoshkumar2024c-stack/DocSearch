@@ -1,0 +1,42 @@
+Observation of how logistics staff track orders now.
+Prototyping: Figma mockups of home, checkout and tracking
+screens shows to users.
+
+Fig 3: Use case diagram:
+
+[A use case diagram showing Customer and Marketing actors interacting with ShopEase App features]
+Customer
+Marketing
+ShopEase App
+(Register / login)
+(Search Products)
+(View Recommendations)
+(Make Payment) -> Payment Gateway
+(Track Order) -> Logistics System
+(Send offers)
+(View Analytics)
+
+Functional: login, search, recommendations, cart, payment,
+              tracking
+Non-Functional: Security, performance, 99.9% availability,
+                works on Android / Web / IOS.
+
+Validation techniques:
+
+i.) Requirements review by stakeholders
+ii.) Prototype validation with users
+iii.) Test-case generation: "app should be fast" is vague, so it
+      becomes "load within 3sec".
+iv.) Each requirement checked for being correct, complete,
+     consistent & unambiguous.
+v.) Traceability Matrix (RTM):
+
+| Req ID | Requirement | Module | Test case |
+|---|---|---|---|
+| R1 | OTP Login | Auth Service | TC-01 |
+| R2 | UPI Payment | Payment Service | TC-10 |
+| R3 | Live Tracking | Tracking Service | TC-20 |
+
+Scope creep control: new requests go to the Product
+Owner -> backlog -> prioritized.
+Nothing is added to running sprint.

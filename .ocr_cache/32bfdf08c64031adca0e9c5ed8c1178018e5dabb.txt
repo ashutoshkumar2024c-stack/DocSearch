@@ -1,0 +1,33 @@
+Q-2.) For the given scenario, the suitable networking
+solution will be AWS TGW (Transit Gateway)
+
+As given in the scenario, they has to simplify
+connectivity among multiple VPCs & the on-premises
+network while providing private connection to
+improve network performance.
+
+Managing so many VPC peering connections will
+become challenging, so, to overcome this challenge
+AWS has TGW. TGW needs one connection called
+attatchment to a VPC, and we can establish a
+full-or part mesh connectivity easily without
+maintaining so many peering communications.
+
+TGW. is a central aggregation service spanned
+within a region, which can be used to connect
+our VPCS and on-premises networks.
+
+↳ it takes care of our availability & scalability
+and eliminates complex VPN or peering connection
+scenarios when connecting with multiple VPCS
+and on-premise infrastructure.
+
+we can connect TGWS in different regions
+by using TGW Peering.
+
+TGW is a regional entity, we can only
+attach VPCS to TGW within the same region
+and per VPC, the bandwidth is 50 Gbps (reserved).
+One TGW can have up to 5000 VPC attachments.
+
+5

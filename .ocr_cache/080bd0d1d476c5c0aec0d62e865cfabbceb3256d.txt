@@ -1,0 +1,38 @@
+Selected: Agile (Scrum) with spiral-style risk ana-
+lysis.
+
+Justification:
+
+i.) Timeboxing : 6 months = 12 sprints of 2 weeks . The
+deadline stays fixed and only scope is
+adjusted.
+
+ii.) Priority based : Important features (login, catalogue,
+delivery payment, tracking) are built first, less
+important ones can be postponed.
+
+iii.) Accepts : New requirements go into the Product
+change Backlog.
+
+iv.) Continuous : Testing in every sprint catches integration
+testing failures early.
+
+v.) Better : Daily stand-ups remove communication
+communication gaps.
+
+vi.) Risk Review : Before each release for high-risk parts
+(from spiral) like payment.
+
+Fig 1: Scrum Framework:
+
+[Flowchart of the Scrum Framework showing the process from stakeholders to retrospective]
+Stakeholders
+Product Backlog
+Sprint Planning
+Sprint Backlog
+Sprint 2 Weeks
+Daily Stand-up
+Working Increment
+Feedback
+Sprint Review
+Retrospective

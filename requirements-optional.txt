@@ -1,0 +1,9 @@
+# Extra OCR engines. The router uses them automatically when installed.
+easyocr>=1.7             # blurry / faded / photographed pages (downloads models on first use)
+paddleocr>=2.7           # Chinese / Japanese / Korean, and poor scans (also needs paddlepaddle)
+# Vision-native retrieval for visual pages (needs a CUDA GPU in practice)
+# colpali-engine>=0.3
+# torch
+
+# local LLM / vision model through Ollama (https://ollama.com)
+ollama>=0.4

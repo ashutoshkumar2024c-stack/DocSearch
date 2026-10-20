@@ -1,0 +1,32 @@
+Q-4.) Design & Testing:
+
+a.) Design principles:
+
+1.) Modularity : divide the system into separate modules:
+user module, product module, recommendation
+module, payment module, tracking module
+
+2.) High Cohesion & low coupling: each module does one
+job well (high cohesion) & depends less on
+other modules (low coupling). For example,
+if payment gateway changes, only the
+payment module should change.
+
+3.) Abstraction & information hiding: Other modules call the
+payment service through an interface and
+don't need to know the internal details.
+
+4.) Separation of concerns (layered architecture):
+
+Presentation Layer                    Android / iOs app/web
+
+API Gateway (Rest APIs)
+
+Business Logic layer
+User | Product (Recommend) |           Microservices
+Payment | Order Tracking
+
+Data Layer                            Database, Cache
+
+
+External: Payment Gateway, Maps/Courier API

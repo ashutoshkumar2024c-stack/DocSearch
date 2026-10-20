@@ -1,0 +1,27 @@
+# ---- core: parsing, routing, OCR, layout ----
+pypdfium2>=4.30          # PDF text layer, image detection, rendering
+pdfplumber>=0.11         # headings and tables in digital PDFs
+pytesseract>=0.3.10      # needs the Tesseract program (see README)
+opencv-python-headless>=4.9
+numpy>=1.26
+Pillow>=10.0
+python-docx>=1.1
+python-pptx>=0.6.23
+openpyxl>=3.1
+beautifulsoup4>=4.12
+
+# ---- retrieval and answering ----
+transformers>=4.40            # all-MiniLM-L6-v2 (about 90 MB, downloaded on first run)
+torch>=2.2
+faiss-cpu>=1.8               # optional speed-up; exact NumPy search is used without it
+requests>=2.31               # Mistral API, Ollama health checks
+python-dotenv>=1.0
+
+# ---- web application ----
+streamlit>=1.40
+
+# ---- local models (optional): Qwen3-VL OCR/figures, qwen3 LLM; also in requirements-optional.txt ----
+
+# ---- dev ----
+pytest>=8.0
+reportlab>=4.0               # builds the test sample PDF

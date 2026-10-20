@@ -1,0 +1,22 @@
+Aws vpc network architecture
+
+[Diagram of AWS VPC Network Architecture showing AWS Cloud, Region, VPC, AZ-A, AZ-B, Frontend subnet, Database subnet, and CIDR blocks]
+Aws cloud
+Region
+VPC
+AZ-A
+Frontend subnet
+10.1.0.5
+10.1.0.6
+AZ-B
+Database subnet
+10.2.0.5
+10.2.0.6
+VPC CIDR 10.0.0.0/16
+
+For inbound and outbound controls, VPC uses
+SGs (Security Groups), these are virtual firewalls
+for our instances to control these packets.
+SGs controls these as, designated resources for
+one or more instances from the CIDR block range
+or another SGs.

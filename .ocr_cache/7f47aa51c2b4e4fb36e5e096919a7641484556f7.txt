@@ -1,0 +1,40 @@
+Roles:
+
+- Product Owner: Senior member from ShopEase marketing.
+- Scrum Master: Project Manager
+- Dev Team (6-7): mobile devs, backend devs, UI/UX designer,
+                  testers.
+
+Q-2.) Requirements Engineering:
+
+Requirements Engineering is the process of finding,
+documenting and checking what the system should
+do.
+
+Fig. 2: RE Process
+[Diagram showing the RE Process flow]
+Feasibility -> Elicitation -> Specification -> Validation
+                <- Requirements Management <-
+
+Stakeholders:                     Needs
+
+Customers                         Simple UI, safe payment, live tracking
+
+
+Marketing                         Recommendations, offers, notifications
+
+
+Logistics                         Delivery Status, courier, API integration
+
+
+Management                        Low-cost, on-time launch.
+
+Elicitation Techniques:
+
+i-) Interviews with marketing and logistics heads
+
+ii-) Online survey for existing customers
+
+iii-) JAD Workshop: all department together to settle conflicts,
+e.g., marketing wants many notifications but customers
+don't.

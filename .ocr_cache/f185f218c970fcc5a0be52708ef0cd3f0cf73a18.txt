@@ -1,0 +1,18 @@
+| Risk | Probability | Impact | Mitigation |
+|---|---|---|---|
+| Scope Creep | High | High | Fixed sprint scope, change control through the Product Owner |
+| Payment gateway integration failure | Medium | Very High | Use certified gateway (Razorpay), test in Sandbox early, keep a backup gateway. |
+| Tracking API / logistics integration failure | Medium | High | Define API contracts early, use mock APIs, integrate continuously |
+| Team communication gap | Medium | Medium | Daily stand-ups, Slack/Jira shared documentation |
+| Security breach | Low | Very High | Encryption, security, testing, OWASP guidelines |
+| Deadline slip | Medium | High | Track velocity and burndown, keep a 1-month buffer |
+| Staff leaving | Low | High | Pair programming, documentation, knowledge sharing |
+
+Risk Exposure RE = Probability x Cost of Loss.
+
+Eg: If payment failure has probability of 0.3 & a
+loss of 10 lakh, then
+RE = 3 lakh, so it gets high
+priority.
+
+A burndown chart is used to monitor progress.
